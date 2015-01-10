@@ -6,7 +6,8 @@ Virtual machine for the Nextflow tutorial
 Prerequisites 
 ---------------
 
-This project contains a Vagrant configuration file 
+This project contains a Vagrant configuration file that will allow you to setup the virtual 
+machine used at ACGT14 workshop for the Nextflow tutorial.
 
 In order to use it, you will need to install the following pieces of software: 
 
@@ -32,7 +33,7 @@ Change to the `ACGT14-vm` folder and launch vagrant:
 The first time you run it, it will automatically download the virtual machine required by the tutorial. 
 It may take some minutes to complete, so be patient. 
 
-When it boots up and the configuration steps are terminated, login into the VM instance:
+When it has booted up and the configuration steps are terminated, login into the VM instance:
 
     $ vagrant ssh 
     
